@@ -1,0 +1,23 @@
+.wp-block-gpb-guten-popup {
+  // Popup wrapper
+  .popup-wrapper {
+    position: relative;
+    width: 600px;
+    height: auto;
+    left: auto;
+    top: auto;
+    margin-top: 20px;
+    visibility: visible;
+    opacity: 1;
+    padding: 20px 0;
+  }
+
+  // popup content heading
+  .popup-heading {
+    @for $i from 1 to 6 {
+      h#{$i} {
+        font-size: 24px !important;
+      }
+    }
+  }
+}
